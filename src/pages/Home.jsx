@@ -1,4 +1,5 @@
 import React from "react";
+import MyButton from "../component/MyButton";
 import "./home.css";
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
         <div>
           <button className="text-white border-2 px-6 py-2 my-2 flex items-center gap-2 rounded-lg">
             Say Hello
-            <box-icon name="invader" type="solid" color="#a74ed0"></box-icon>
+            <MyButton iconName={"invader"} />
           </button>
         </div>
       </div>
