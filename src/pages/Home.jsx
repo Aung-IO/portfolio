@@ -1,6 +1,6 @@
 import React from "react";
-import MyButton from "../component/MyButton";
 import "./home.css";
+import MyButton from "../component/MyButton"
 
 export default function Home() {
   return (
@@ -21,6 +21,7 @@ export default function Home() {
         <div>
           <button className="text-white border-2 px-6 py-2 my-2 flex items-center gap-2 rounded-lg">
             Say Hello
+            
             <MyButton iconName={"invader"} />
           </button>
         </div>
